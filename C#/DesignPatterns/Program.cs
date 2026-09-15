@@ -1,21 +1,14 @@
-﻿
-using DesignPatterns.src.OopPrinciples.Inheritance;
+﻿// Example usage:
 
-Car car = new Car 
-{ 
-    Model = "Model S", 
-    Brand = "Tesla", 
-    NumberOfDoors = 4 
-};
-Bike bike = new Bike 
+using DesignPatterns.src.OopPrinciples.Polymorphism;
+
+List<Vehicle> vehicles = new List<Vehicle>
 {
-    Model = "Ducati", 
-    Brand = "Ducati", 
-    NumberOfGears = 6 
+    new Car { Model = "Model S", Brand = "Tesla", NumberOfDoors = 4 },
+    new Bike { Model = "Ducati", Brand = "Ducati", NumberOfGears = 6 }
 };
-
-car.Start();
-car.Stop();
-
-bike.Start();
-bike.Stop();
+foreach (var vehicle in vehicles)
+{
+    vehicle.Start();
+    vehicle.Stop();
+}

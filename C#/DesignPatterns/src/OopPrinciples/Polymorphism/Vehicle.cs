@@ -1,6 +1,4 @@
-﻿using DesignPatterns.src.OopPrinciples.Inheritance;
-
-namespace DesignPatterns.src.OopPrinciples.Inheritance
+﻿namespace DesignPatterns.src.OopPrinciples.Polymorphism
 {
     public class Vehicle
     {

@@ -31,3 +31,14 @@ public class BankAccount(decimal amount)
         this.balance -= amount;
     }
 }
+
+// Example usage:
+//BankAccount bankAccount = new(100);
+
+//Console.WriteLine(bankAccount.GetBalance());
+
+//bankAccount.Deposit(50);
+//Console.WriteLine(bankAccount.GetBalance());
+
+//bankAccount.Withdraw(200);
+//Console.WriteLine(bankAccount.GetBalance());

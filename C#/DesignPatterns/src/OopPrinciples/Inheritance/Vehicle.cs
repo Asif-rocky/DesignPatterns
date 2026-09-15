@@ -22,6 +22,9 @@ namespace DesignPatterns.src.OopPrinciples.Inheritance
 }
 
 // Example usage:
+
+//using DesignPatterns.src.OopPrinciples.Inheritance;
+
 //Car car = new Car
 //{
 //    Model = "Model S",

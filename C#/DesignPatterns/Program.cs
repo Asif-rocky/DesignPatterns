@@ -1,14 +1,7 @@
-﻿// Example usage:
+﻿using DesignPatterns.src.OopPrinciples.Coupling;
 
-using DesignPatterns.src.OopPrinciples.Polymorphism;
+Order orderWithEmail = new Order(new EmailSender());
+orderWithEmail.PlaceOrder("Order #1234");
 
-List<Vehicle> vehicles = new List<Vehicle>
-{
-    new Car { Model = "Model S", Brand = "Tesla", NumberOfDoors = 4 },
-    new Bike { Model = "Ducati", Brand = "Ducati", NumberOfGears = 6 }
-};
-foreach (var vehicle in vehicles)
-{
-    vehicle.Start();
-    vehicle.Stop();
-}
+Order orderWithSms = new Order(new SmsSender());
+orderWithSms.PlaceOrder("Order #5678");

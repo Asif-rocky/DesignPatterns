@@ -20,22 +20,16 @@
 }
 
 // Example usage:
-//Car car = new Car
+
+//using DesignPatterns.src.OopPrinciples.Polymorphism;
+
+//List<Vehicle> vehicles = new List<Vehicle>
 //{
-//    Model = "Model S",
-//    Brand = "Tesla",
-//    NumberOfDoors = 4
+//    new Car { Model = "Model S", Brand = "Tesla", NumberOfDoors = 4 },
+//    new Bike { Model = "Ducati", Brand = "Ducati", NumberOfGears = 6 }
 //};
-//Bike bike = new Bike
+//foreach (var vehicle in vehicles)
 //{
-//    Model = "Ducati",
-//    Brand = "Ducati",
-//    NumberOfGears = 6
-//};
-
-//car.Start();
-//car.Stop();
-
-//bike.Start();
-//bike.Stop();
-
+//    vehicle.Start();
+//    vehicle.Stop();
+//}

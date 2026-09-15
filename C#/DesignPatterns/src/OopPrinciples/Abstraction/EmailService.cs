@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.src.OopPrinciples.Abstraction
+﻿using DesignPatterns.src.OopPrinciples.Abstraction;
+
+namespace DesignPatterns.src.OopPrinciples.Abstraction
 {
     public class EmailService
     {
@@ -31,4 +33,10 @@
             Console.WriteLine($"Disconnecting from SMTP server ....");
         }
     }
+
 }
+
+
+// Example usage:
+//EmailService emailService = new();
+//emailService.SendEmail();
